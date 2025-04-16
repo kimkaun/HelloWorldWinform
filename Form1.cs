@@ -16,5 +16,20 @@ namespace HelloWorldWinform
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPush_Click(object sender, EventArgs e)
+        {
+            lblTitle.Text = "Hello";
+        }
+
+        private void 끝내기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
